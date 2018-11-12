@@ -10,4 +10,4 @@ $ flask run
 
 ![Home page](https://imgur.com/gZh0jS3.png)
 
-For additional information, please see "notes.txt" file
+For additional information, please see "[notes.txt](https://github.com/pranavg189/url-shortener/blob/master/notes.txt)" file
