@@ -9,3 +9,5 @@ $ flask run
 ```
 
 ![Home page](https://imgur.com/gZh0jS3.png)
+
+For additional information, please see "notes.txt" file
