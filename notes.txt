@@ -1,0 +1,9 @@
+Requirements:
+
+$ pip install flask flask-alchemy beautifulsoup4
+
+Notes:-
+
+* SQLite is used for the database
+* If the long url already exists in the database, then the already created short url is returned
+* If the user tries to access the short url after it has expired, it is deleted automatically from the database
