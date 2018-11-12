@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home Page
+{% endblock %}
+
+{% block main %}
+<form action="/create" method="post">
+    <div class="form-group form-group-lg">
+        <input autocomplete="off" autofocus class="form-control form-control-lg" style="width: -webkit-fill-available;" name="longurl" placeholder="Please enter a long URL...." type="text"/>
+    </div>
+    <div class="form-group inline">
+            <label for="expiry">Expiry time: </label>
+            <select id="expiry-time" class="form-control" style="width: auto; margin: 6px;" name="expiry">
+                        <option selected="" value="0">Unlimited</option>
+                        <option value="1">1 min</option>
+                        <option value="5">5 min</option>
+            </select>
+    </div>
+    <button class="btn btn-primary" type="submit">Shorten</button>
+</form>
+{% endblock %}

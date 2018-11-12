@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Exists
+{% endblock %}
+
+{% block main %}
+  <p>
+    Short URL already exists. Please go to: <a href="http://127.0.0.1:5000/shorturl/{{base62_string}}">http://127.0.0.1:5000/shorturl/{{base62_string}}</a>
+  </p>
+{% endblock %}
